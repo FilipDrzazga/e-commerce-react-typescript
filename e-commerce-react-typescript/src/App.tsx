@@ -1,7 +1,8 @@
 import { type FC } from "react";
+import Home from "./pages/Home";
 
 const App: FC = () => {
-  return <p>Hello</p>;
+  return <Home />;
 };
 
 export default App;
