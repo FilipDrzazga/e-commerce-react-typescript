@@ -13,7 +13,7 @@ const Picture: FC<PictureProps> = ({ mobile, tablet, desktop, alt }) => {
       <source srcSet={mobile} media="(min-width: 375px)" />
       <source srcSet={tablet} media="(min-width: 680px)" />
       <source srcSet={desktop} media="(min-width: 1024px)" />
-      <img className="w-screen h-screen object-cover" src={desktop} alt={alt} />
+      <img className="relative w-screen h-screen object-cover " src={desktop} alt={alt} />
     </picture>
   );
 };

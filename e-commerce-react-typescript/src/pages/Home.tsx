@@ -1,10 +1,12 @@
 import { type FC } from "react";
 import Picture from "../components/Picture";
 import { homePageImages } from "../assets/images";
+import StaticNavigation from "../components/StaticNavigation";
 
 const Home: FC = () => {
   return (
-    <section>
+    <>
+      <StaticNavigation />
       <Picture
         mobile={homePageImages.img1.mobile}
         tablet={homePageImages.img1.tablet}
@@ -17,7 +19,7 @@ const Home: FC = () => {
         desktop={homePageImages.img2.desktop}
         alt={homePageImages.img2.alt}
       />
-    </section>
+    </>
   );
 };
 
