@@ -12,6 +12,8 @@ const Home: FC = () => {
         tablet={homePageImages.img1.tablet}
         desktop={homePageImages.img1.desktop}
         alt={homePageImages.img1.alt}
+        text="[see new collection]"
+        logo={true}
       />
     </section>
   );

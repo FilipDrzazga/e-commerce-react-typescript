@@ -1,4 +1,5 @@
 import Logo from "./Logo";
+import SkewArrow from "./SkewArrow";
 import streetRunerMobile from "./runner_on_street_mobile.jpg";
 import streetRunerTablet from "./runner_on_street_tablet.jpg";
 import nikeShoesFloorMobile from "./nike_shoes_on_the_floor_mobile.jpg";
@@ -19,4 +20,4 @@ const homePageImages = {
   },
 };
 
-export { homePageImages, Logo };
+export { homePageImages, Logo, SkewArrow };
