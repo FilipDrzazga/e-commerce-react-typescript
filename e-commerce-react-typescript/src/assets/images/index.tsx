@@ -1,6 +1,6 @@
+import Logo from "./Logo";
 import streetRunerMobile from "./runner_on_street_mobile.jpg";
 import streetRunerTablet from "./runner_on_street_tablet.jpg";
-
 import nikeShoesFloorMobile from "./nike_shoes_on_the_floor_mobile.jpg";
 import nikeShoesFloorTablet from "./nike_shoes_on_the_floor_tablet.jpg";
 
@@ -19,4 +19,4 @@ const homePageImages = {
   },
 };
 
-export { homePageImages };
+export { homePageImages, Logo };
