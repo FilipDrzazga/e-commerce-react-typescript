@@ -6,13 +6,13 @@ type PictureProps = {
   tablet: string;
   desktop: string;
   alt: string;
-  text: string;
-  logo: boolean;
+  text?: string;
+  logo?: boolean;
 };
 
-const Picture: FC<PictureProps> = ({ mobile, tablet, desktop, alt, text, logo }) => {
+const Picture: FC<PictureProps> = ({ mobile, tablet, desktop, alt, text = false, logo = false }) => {
   return (
-    <div className="relative w-full h-[85vh]">
+    <section className="relative w-full h-[85vh] mb-12">
       <picture>
         <source srcSet={mobile} media="(min-width: 375px)" />
         <source srcSet={tablet} media="(min-width: 680px)" />
@@ -30,7 +30,7 @@ const Picture: FC<PictureProps> = ({ mobile, tablet, desktop, alt, text, logo })
           <Logo color="white" />
         </div>
       )}
-    </div>
+    </section>
   );
 };
 
