@@ -9,7 +9,7 @@ export const futuristicShoesData = [
     description:
       "Experience next-level comfort and performance with the Quantum Stride X. Cutting-edge technology meets futuristic design for the ultimate running sensation.",
     material: "Breathable Mesh Upper, Lightweight Synthetic Sole",
-    newItem: Math.random() < 0.5,
+    newItem: true,
   },
   {
     name: "NeuraGlide 3000",
@@ -21,7 +21,7 @@ export const futuristicShoesData = [
     description:
       "Step into the future of style and support with NeuraGlide 3000. Engineered for maximum comfort and sleek aesthetics, these shoes redefine your every step.",
     material: "Premium Synthetic Leather, Responsive Foam Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "HyperFlex Nexus",
@@ -33,7 +33,7 @@ export const futuristicShoesData = [
     description:
       "Achieve unparalleled flexibility and performance with HyperFlex Nexus. These shoes seamlessly blend futuristic design with advanced technology to elevate your athletic experience.",
     material: "Flexible Knit Fabric, Durable Rubber Outsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "Cosmic Trek Pro",
@@ -45,7 +45,7 @@ export const futuristicShoesData = [
     description:
       "Embark on a cosmic journey with Cosmic Trek Pro. Precision engineering and vibrant design make these shoes the perfect companion for your adventurous spirit.",
     material: "Water-Resistant Synthetic, Shock-Absorbing Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "Galactic Elegance",
@@ -57,7 +57,7 @@ export const futuristicShoesData = [
     description:
       "Indulge in elegance and comfort with Galactic Elegance. These shoes seamlessly blend futuristic aesthetics with timeless style for a sophisticated look.",
     material: "Soft Microfiber Upper, Traction-enhancing Rubber Sole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "Zero-G Levitate",
@@ -69,7 +69,7 @@ export const futuristicShoesData = [
     description:
       "Defy gravity with the Zero-G Levitate. These lightweight and responsive shoes provide a dynamic feel for an out-of-this-world walking experience.",
     material: "Ultra-Lightweight Synthetic, BounceBack Foam Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "Quantum Stride Ultra",
@@ -81,7 +81,7 @@ export const futuristicShoesData = [
     description:
       "Unleash your potential with the Quantum Stride Ultra. Engineered for maximum energy return and comfort, these shoes are the perfect blend of style and performance.",
     material: "Durable Mesh Upper, Energy-Return Technology",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "AeroGlide SynthX",
@@ -93,7 +93,7 @@ export const futuristicShoesData = [
     description:
       "Soar through the air with the AeroGlide SynthX. These futuristic shoes combine aerodynamic design with advanced cushioning for an unparalleled gliding experience.",
     material: "Synthetic Aero-Fiber Upper, Responsive Cushioning",
-    newItem: Math.random() < 0.5,
+    newItem: true,
   },
   {
     name: "Nebula Flux Sandals",
@@ -105,7 +105,7 @@ export const futuristicShoesData = [
     description:
       "Step into the future of casual comfort with Nebula Flux Sandals. These sandals feature a lightweight design and cushioned footbed for all-day relaxation.",
     material: "Soft EVA Straps, Contoured Footbed",
-    newItem: Math.random() < 0.5,
+    newItem: true,
   },
   {
     name: "GravityShift Trailblazer",
@@ -117,7 +117,7 @@ export const futuristicShoesData = [
     description:
       "Conquer any trail with the GravityShift Trailblazer. These rugged yet stylish shoes provide superior grip and stability for your outdoor adventures.",
     material: "Waterproof Synthetic, Durable Traction Outsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "PlasmaStep Elite",
@@ -129,7 +129,7 @@ export const futuristicShoesData = [
     description:
       "Elevate your performance with the PlasmaStep Elite. These high-tech shoes offer precision fit and responsive cushioning for your most intense workouts.",
     material: "Ventilated Mesh Upper, High-Rebound Foam Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "TechStride Infinity",
@@ -141,7 +141,7 @@ export const futuristicShoesData = [
     description:
       "Step into the future of style and comfort with TechStride Infinity. These versatile shoes feature a sleek design and advanced cushioning for everyday wear.",
     material: "Durable Textile Upper, Memory Foam Insole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "QuantumFlow EvoX",
@@ -153,7 +153,7 @@ export const futuristicShoesData = [
     description:
       "Experience the fluidity of motion with QuantumFlow EvoX. These shoes are designed for agility and style, making them the perfect choice for dynamic activities.",
     material: "Flexible Knit Upper, Responsive EVA Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "MegaGrip Fusion",
@@ -165,7 +165,7 @@ export const futuristicShoesData = [
     description:
       "Conquer any terrain with MegaGrip Fusion. These shoes feature a high-traction outsole and durable construction for superior performance on your outdoor adventures.",
     material: "Waterproof Synthetic, MegaGrip Rubber Outsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "NexaFlex Precision",
@@ -177,7 +177,7 @@ export const futuristicShoesData = [
     description:
       "Unleash your precision with NexaFlex Precision. These shoes offer a responsive feel and precise fit, making them the ideal choice for focused workouts.",
     material: "Breathable Mesh Upper, PrecisionFit Lacing System",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "XenonTech Velocity",
@@ -189,7 +189,7 @@ export const futuristicShoesData = [
     description:
       "Experience the speed of technology with XenonTech Velocity. These shoes feature advanced materials and design for a fast and responsive feel during your runs.",
     material: "Lightweight Synthetic Upper, SpeedFoam Technology",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "QuantumBounce React",
@@ -201,7 +201,7 @@ export const futuristicShoesData = [
     description:
       "Bounce into the future with QuantumBounce React. These shoes feature responsive cushioning and a dynamic design for a lively and comfortable walking experience.",
     material: "EnergyBounce Foam, Durable Mesh Upper",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "IonSync Boost",
@@ -213,7 +213,7 @@ export const futuristicShoesData = [
     description:
       "Sync up with IonSync Boost for a boost in performance. These shoes feature responsive cushioning and a supportive fit for your most demanding activities.",
     material: "Synthetic Upper, Boost Cushioning",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "SkyWeave Nimbus",
@@ -225,7 +225,7 @@ export const futuristicShoesData = [
     description:
       "Walk on clouds with SkyWeave Nimbus. These lightweight and breathable shoes offer a luxurious feel for your daily adventures.",
     material: "Premium Woven Fabric Upper, CloudComfort Insole",
-    newItem: Math.random() < 0.5,
+    newItem: true,
   },
   {
     name: "EcoDrive SynthWave",
@@ -237,7 +237,7 @@ export const futuristicShoesData = [
     description:
       "Experience sustainable style with EcoDrive SynthWave. These eco-friendly shoes feature recycled materials and a sleek design for a guilt-free fashion statement.",
     material: "Recycled Synthetic Leather, EcoFoam Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "VortexTech HyperStep",
@@ -249,7 +249,7 @@ export const futuristicShoesData = [
     description:
       "Step into the vortex of technology with VortexTech HyperStep. These shoes feature advanced materials and a futuristic design for a cutting-edge look and feel.",
     material: "HyperTech Mesh Upper, VortexFoam Cushioning",
-    newItem: Math.random() < 0.5,
+    newItem: true,
   },
   {
     name: "LunarGlide UltraX",
@@ -261,7 +261,7 @@ export const futuristicShoesData = [
     description:
       "Glide through the lunar landscape with LunarGlide UltraX. These shoes offer a smooth and stable ride for your runs and workouts.",
     material: "LunarWeave Upper, UltraGlide Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: true,
   },
   {
     name: "QuantumShift Flux",
@@ -273,7 +273,7 @@ export const futuristicShoesData = [
     description:
       "Shift into high gear with QuantumShift Flux. These high-performance shoes feature a dynamic design and responsive cushioning for your fastest moves.",
     material: "FlexTech Upper, FluxFoam Technology",
-    newItem: Math.random() < 0.5,
+    newItem: true,
   },
   {
     name: "NanoFlex Stratos",
@@ -285,7 +285,7 @@ export const futuristicShoesData = [
     description:
       "Flex into the future with NanoFlex Stratos. These shoes offer exceptional flexibility and lightweight comfort for your everyday activities.",
     material: "NanoFlex Fabric Upper, FlexFoam Insole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "XenonForce Propel",
@@ -297,7 +297,7 @@ export const futuristicShoesData = [
     description:
       "Propel yourself forward with XenonForce Propel. These shoes feature a propulsive design and responsive cushioning for explosive performance.",
     material: "XenonMesh Upper, PropelFoam Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "GravityWave Pulse",
@@ -309,7 +309,7 @@ export const futuristicShoesData = [
     description:
       "Feel the pulse of gravity with GravityWave Pulse. These shoes provide a stable and cushioned ride for your daily activities.",
     material: "StabilTech Upper, PulseFoam Cushioning",
-    newItem: Math.random() < 0.5,
+    newItem: true,
   },
   {
     name: "TechGlide InfinityX",
@@ -321,7 +321,7 @@ export const futuristicShoesData = [
     description:
       "Glide into infinity with TechGlide InfinityX. These shoes feature a seamless design and advanced cushioning for a smooth and comfortable walking experience.",
     material: "TechWeave Upper, InfinityFoam Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: true,
   },
   {
     name: "QuantumBlast Xcel",
@@ -333,7 +333,7 @@ export const futuristicShoesData = [
     description:
       "Blast into excellence with QuantumBlast Xcel. These high-performance shoes feature explosive design and responsive cushioning for your most dynamic movements.",
     material: "BlastTech Upper, XcelFoam Technology",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
   {
     name: "SkyVibe Velocity",
@@ -345,7 +345,7 @@ export const futuristicShoesData = [
     description:
       "Feel the velocity of the sky with SkyVibe Velocity. These shoes feature a lightweight design and responsive cushioning for an uplifting walking experience.",
     material: "SkyTech Mesh Upper, VelocityFoam Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: true,
   },
   {
     name: "ElectraFit Zephyr",
@@ -357,6 +357,6 @@ export const futuristicShoesData = [
     description:
       "Embrace the electrifying comfort of ElectraFit Zephyr. These shoes feature a futuristic design and responsive cushioning for your active lifestyle.",
     material: "ElectraMesh Upper, ZephyrFoam Midsole",
-    newItem: Math.random() < 0.5,
+    newItem: false,
   },
 ];
