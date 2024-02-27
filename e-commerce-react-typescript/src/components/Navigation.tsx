@@ -3,7 +3,7 @@ import { Logo } from "../assets/images";
 
 const Navigation: FC = () => {
   return (
-    <section className="h-8 mb-12">
+    <section className="w-full h-8 mb-12">
       <header className="h-full w-full">
         <nav className="grid grid-cols-4 grid-rows-1 h-full w-full">
           <a className="flex justify-center items-center">

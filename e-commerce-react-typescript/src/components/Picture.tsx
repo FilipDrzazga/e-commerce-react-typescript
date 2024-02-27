@@ -10,11 +10,22 @@ type PictureProps = {
   belowImgTxt?: string;
   logo?: boolean;
   hSize?: string;
+  margin?: string;
 };
 
-const Picture: FC<PictureProps> = ({ mobile, tablet, desktop, alt, imgTxt, belowImgTxt, logo, hSize = "85vh" }) => {
+const Picture: FC<PictureProps> = ({
+  mobile,
+  tablet,
+  desktop,
+  alt,
+  imgTxt,
+  belowImgTxt,
+  logo,
+  hSize = "85vh",
+  margin = "3rem",
+}) => {
   return (
-    <div className={`relative w-full h-[${hSize}] mb-12`}>
+    <div className={`relative max-w-full h-[${hSize}] mb-[${margin}]`}>
       <picture>
         <source srcSet={mobile} media="(min-width: 375px)" />
         <source srcSet={tablet} media="(min-width: 680px)" />
