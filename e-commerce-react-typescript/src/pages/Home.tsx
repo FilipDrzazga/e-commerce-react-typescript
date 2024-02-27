@@ -2,10 +2,11 @@ import { type FC } from "react";
 import Picture from "../components/Picture";
 import Navigation from "../components/Navigation";
 import { homePageImages, Logo, SkewArrow } from "../assets/images";
+import Footer from "../components/Footer";
 
 const Home: FC = () => {
   return (
-    <section className="w-screen px-3 py-2">
+    <section className="w-screen px-3 pt-3">
       <Navigation />
       <Picture
         mobile={homePageImages.img1.mobile}
@@ -138,6 +139,7 @@ const Home: FC = () => {
           </button>
         </form>
       </section>
+      <Footer />
     </section>
   );
 };
