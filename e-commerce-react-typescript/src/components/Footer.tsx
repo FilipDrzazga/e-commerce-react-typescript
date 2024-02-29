@@ -3,7 +3,7 @@ import { SkewArrowIcon } from "../assets";
 
 const Footer: FC = () => {
   return (
-    <section className="flex flex-col items-center justify-center w-screen pb-12 -ml-3 text-white bg-black font-inconsolata">
+    <section className="flex flex-col items-center justify-center w-screen -ml-3 text-white bg-black">
       <header className="flex items-center justify-center w-full h-8 mt-12 mb-12">
         <h2>[contact]</h2>
       </header>

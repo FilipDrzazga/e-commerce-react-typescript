@@ -34,13 +34,13 @@ const Picture: FC<PictureProps> = ({
       </picture>
       {imgTxt && (
         <div className="absolute flex items-center justify-center w-full gap-1 top-8 left-1/2 -translate-x-2/4 ">
-          <p className="text-white font-inconsolata">{imgTxt}</p>
+          <p className="text-white">{imgTxt}</p>
           <SkewArrowIcon />
         </div>
       )}
       {belowImgTxt && (
         <div>
-          <p className="my-2 font-inconsolata">{belowImgTxt}</p>
+          <p className="my-2">{belowImgTxt}</p>
         </div>
       )}
       {logo && (

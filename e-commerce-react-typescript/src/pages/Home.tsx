@@ -2,15 +2,15 @@ import { type FC } from "react";
 import Navigation from "../components/Navigation";
 import Picture from "../components/Picture";
 import About from "../components/About";
-import Footer from "../components/Footer";
-import { homePageImages } from "../assets";
 import NewArrivals from "../components/NewArrivals";
 import InfinityText from "../components/InfinityText";
 import JoinUs from "../components/JoinUs";
+import Footer from "../components/Footer";
+import { homePageImages } from "../assets";
 
 const Home: FC = () => {
   return (
-    <section className="w-screen px-3 pt-3 font-inconsolata">
+    <section className="w-screen px-3 pt-3">
       <Navigation />
       <Picture
         mobile={homePageImages.img1.mobile}
@@ -23,9 +23,10 @@ const Home: FC = () => {
       />
       <About />
       <NewArrivals />
-      <InfinityText />
+      <InfinityText lg={true} />
       <JoinUs />
       <Footer />
+      <InfinityText sm={true} />
     </section>
   );
 };
