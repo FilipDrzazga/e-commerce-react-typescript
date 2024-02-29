@@ -1,5 +1,5 @@
 import { type FC } from "react";
-import { SkewArrow, Logo } from "../assets";
+import { SkewArrowIcon, Logo } from "../assets";
 
 type PictureProps = {
   mobile: string;
@@ -35,7 +35,7 @@ const Picture: FC<PictureProps> = ({
       {imgTxt && (
         <div className="absolute flex items-center justify-center w-full gap-1 top-8 left-1/2 -translate-x-2/4 ">
           <p className="text-white font-inconsolata">{imgTxt}</p>
-          <SkewArrow />
+          <SkewArrowIcon />
         </div>
       )}
       {belowImgTxt && (

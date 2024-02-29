@@ -1,5 +1,5 @@
 import { type FC } from "react";
-import { SkewArrow } from "../assets";
+import { SkewArrowIcon } from "../assets";
 
 const Footer: FC = () => {
   return (
@@ -11,15 +11,15 @@ const Footer: FC = () => {
         <li>london 13:45</li>
         <li className="flex items-center justify-center w-full gap-2">
           instagram
-          <SkewArrow />
+          <SkewArrowIcon />
         </li>
         <li className="flex items-center justify-center w-full gap-2">
           twitter
-          <SkewArrow />
+          <SkewArrowIcon />
         </li>
         <li className="flex items-center justify-center w-full gap-2">
           mail
-          <SkewArrow />
+          <SkewArrowIcon />
         </li>
       </ul>
     </section>
