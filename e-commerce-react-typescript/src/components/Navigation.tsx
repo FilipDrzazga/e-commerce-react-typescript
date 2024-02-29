@@ -1,5 +1,5 @@
 import { type FC } from "react";
-import { Logo } from "../assets/images";
+import { Logo } from "../assets";
 
 const Navigation: FC = () => {
   return (
