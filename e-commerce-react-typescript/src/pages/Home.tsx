@@ -1,5 +1,6 @@
 import { type FC } from "react";
-import Navigation from "../components/Navigation";
+import Menu from "../components/Menu";
+import Header from "../components/Header";
 import Picture from "../components/Picture";
 import About from "../components/About";
 import NewArrivals from "../components/NewArrivals";
@@ -10,8 +11,9 @@ import { homePageImages } from "../assets";
 
 const Home: FC = () => {
   return (
-    <section className="w-screen px-3 pt-3">
-      <Navigation />
+    <section className="relative w-screen px-3 pt-3">
+      <Menu />
+      <Header />
       <Picture
         mobile={homePageImages.img1.mobile}
         tablet={homePageImages.img1.tablet}
